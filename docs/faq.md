@@ -18,7 +18,7 @@ will not work."
 
 ## Why isn't the relative path in my app code working?
 
-To make a path work in both development and production mode, you'll need to generate a path based on
+To make a path work in both development and packaged mode, you'll need to generate a path based on
 the location of the JavaScript file that is referencing the file. For example, if you had an app
 structure like the following:
 
