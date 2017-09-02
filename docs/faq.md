@@ -2,7 +2,7 @@
 
 ## Why does the menubar appear when running in development mode, but disappear when packaged?
 
-Based on [a comment from MarshallOfSound](https://github.com/electron-userland/electron-packager/issues/553#issuecomment-270805213):
+Based on [a comment from **@MarshallOfSound**](https://github.com/electron-userland/electron-packager/issues/553#issuecomment-270805213):
 
 When you're running in "development mode" (for example, `electron /path/to/app`), Electron uses the
 `default_app` codepath to run your app, which also provides a default menubar. When the app is
